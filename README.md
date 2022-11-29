@@ -1,7 +1,7 @@
 <!--
  * @Author: corinchen
  * @Date: 2022-11-18 13:58:52
- * @LastEditTime: 2022-11-21 12:54:32
+ * @LastEditTime: 2022-11-28 18:02:42
  * @LastEditors: corinchen
  * @Description: 
  * @FilePath: \openzeppelin\README.md
@@ -51,4 +51,24 @@ contract Box {
 }
 
 }
+```
+
+### 写一个单元测试用例（Box）
+
+```
+   box.test.js
+   box.test.helper.js
+   npx hardhat test
+```
+
+### 部署到公共测试网络
+
+```
+   npx mnemonics
+   mkdir secret.json
+   {
+    "mnemonic": "same action add arm huge judge shove smart expose much hire wink",
+    "alchemyApiKey": "new openzeppelin project"
+   } 
+   
 ```
